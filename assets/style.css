@@ -1,13 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-} 
+}  
+body {
+    background-color: rgb(31, 31, 31);
+}
+/* titulo / menu */
 .title {
     color: rgb(199, 199, 199);
 }
 .box-menu { 
     height: 10vh;
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(14, 13, 13);
     display: flex;
     justify-content: space-evenly;  
     align-items: center;
@@ -21,4 +25,50 @@
     list-style-type: none;
 }  
 
+/* Input de pesquisa */
 
+.box-input {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; 
+    
+} 
+.pesquise {
+    font-size: 20px;
+    width: 80vh;
+    padding: 15px; 
+    background-color: rgb(48, 48, 48); 
+    border: 1px solid rgb(134, 134, 134);
+} 
+#btn {
+    width: 10vh; 
+    background-color: rgb(48, 48, 48); 
+    border: 1px solid rgb(134, 134, 134); 
+    border-left: none;
+} 
+/* Bloco de conteudo */  
+.box-bloco { 
+    width: 43.5%; 
+    height: 25vh;
+    border: 1px solid rgb(134, 134, 134);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin: 20px auto;
+}
+.data, .box-title {
+    color: white;
+    display: flex;
+    justify-content: start; 
+    margin-bottom: 10px;
+    margin-left: 25px;
+}  
+.data {
+    color: rgb(199, 199, 199);
+}
+.box-text {
+    color: rgb(199, 199, 199);
+    width: 90%; 
+    margin: 0 auto;
+}
+    
