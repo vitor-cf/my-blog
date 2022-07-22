@@ -80,4 +80,8 @@ body {
     align-items: center; 
     color: white; 
     margin: 20px auto;
-} 
+}  
+
+img {
+    margin-top: 20px;
+}
